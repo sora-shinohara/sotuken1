@@ -81,6 +81,7 @@ def output_to_csv(youtube_video_info_list: List[YoutubeVideoInfo]):
         for youtube_video_info in youtube_video_info_list:
             csv_writer.writerow([youtube_video_info.video_id, youtube_video_info.title, youtube_video_info.published_at, youtube_video_info.like_count,
                                 youtube_video_info.channel_id, youtube_video_info.channel_title, youtube_video_info.subscriber_count])
+print("a")
 
 
 if __name__ == '__main__':
